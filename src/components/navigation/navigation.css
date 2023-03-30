@@ -6,7 +6,7 @@
 }
 
 .gpt3__navbar-links{
-    flex: 2;
+    flex: 1;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -33,19 +33,22 @@
 .gpt3__navbar-menu_container p{
     color:white;
     font-family: var(--font-family);
-    font-size: 15px;
-    line-height: 15px;
+    font-size: 11px;
+    line-height: 20px;
     font-weight: 300;
     text-transform: capitalize;
-    margin: 0 1rem;
+    margin: 0 .5rem;
     cursor: pointer;
 }
 .gpt3__navbar-sign button,
 .gpt3__navbar-menu_container button{
     color:white;
-    padding: 0.2rem 1rem;
-    left: 1111px;
-    top: 44px;
-    border-radius: 3px;
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 20px;
+    padding: 0rem .5rem;
+    border-radius: 5px;
     background: #CB0505;
+    
 }
