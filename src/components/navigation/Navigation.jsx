@@ -3,15 +3,7 @@ import {RiMenuLine, RiCloseLine } from 'react-icons/ri'
 import logo from '../../assets/logo.svg'
 import './navigation.css'
 
-const Menu =() => {
-  <>
-          <p><a href="#home">home</a></p>
-          <p><a href="#blog">Library</a></p>
-          <p><a href="#possibility">Open AI</a></p>
-          <p><a href="#features">Case Studies</a></p>
-          <p><a href="#wgpt3">What is GPT3?</a></p>
-   </>
-}
+
 
 const Navigation = () => {
   const [toggleMenu, setToggleMenu] = useState(false)
