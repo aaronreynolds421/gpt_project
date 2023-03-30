@@ -1,15 +1,26 @@
 import React from 'react'
 import {RiMenuLine, RiCloseLin } from 'react-icons/ri'
-
+import logo from '../../assets/logo.svg'
 import './navigation.css'
 
 const Navigation = () => {
   return (
-    <div className = "gpt4__navbar">
-      <div className='gpt4__navbar-links'>
-      <div className='gpt4__navbar-links_logo'>
+    <div className = "gpt3__navbar">
+      <div className='gpt3__navbar-links'>
+      <div className='gpt3__navbar-links_logo'>
           <img src={logo} alt="logo"/>
-        </div> 
+        </div>
+        <div className="gpt3__navbar-links_container">
+          <p><a href="#home">home</a></p>
+          <p><a href="#blog">Library</a></p>
+          <p><a href="#possibility">Open AI</a></p>
+          <p><a href="#features">Case Studies</a></p>
+          <p><a href="#wgpt3">What is GPT3?</a></p>
+          </div> 
+      </div>
+      <div className="gpt3__navbar-sign">
+        <p>Sign in</p>
+        <button type="button">Sign Up</button>
       </div>
     </div>
   )
