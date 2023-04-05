@@ -7,7 +7,7 @@ const WhatGPT = () => {
   return (
     <div className="gpt3__whatgpt3 section__margin" id="wgpt3">
       <div className="gpt3__whatgpt3-feature">
-        <Feature />
+        <Feature title="What is GPT-3" text="GTP-3 is an OpenAI system that has unimaginable potetial" />
       </div>
       <div className="gpt3__whatgpt3-heading">
         <h1 className="gradient__text">
@@ -16,9 +16,9 @@ const WhatGPT = () => {
         <p>Explore Library</p>
       </div>
       <div className="gpt3__whatgpt3-container">
-        <Feature />
-        <Feature />
-        <Feature />
+        <Feature title="Knowledgebase" text="" />
+        <Feature title="Chatbots" text="" />
+        <Feature title="Education" text="" />
       </div>
     </div>
   );
